@@ -6,3 +6,11 @@ test('creates a health object', () => {
     expect(potion.name).toBe('health');
     expect(potion.value).toEqual(expect.any(number));
 });
+
+// function Car(make, model) {
+//     this.make = make;
+//     this.model = model;
+// }
+
+// const car  = new Car('Acura', 'TLX');
+// console.log(car);
