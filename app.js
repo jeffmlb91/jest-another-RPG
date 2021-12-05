@@ -1,11 +1,6 @@
-const Potion = require('./lib/Potion');
+const Game = require('./lib/Game');
 
-test('creates a health object', () => {
-    const potion = new Potion('health');
-
-    expect(potion.name).toBe('health');
-    expect(potion.value).toEqual(expect.any(number));
-});
+new Game().initializeGame();
 
 // function Car(make, model) {
 //     this.make = make;
